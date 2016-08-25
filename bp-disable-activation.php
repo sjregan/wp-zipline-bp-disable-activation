@@ -1,7 +1,7 @@
 <?php
 
 /*The Functions to automatically activate for Single WP Installs*/
-if ( !bp_core_is_multisite() ) {
+if ( !is_multisite() ) {
 
 	function disable_validation( $user_id ) {
 		global $wpdb;
@@ -127,7 +127,7 @@ global $bp, $wpdb;
 				'primary_link' => apply_filters( 'bp_core_activity_registered_member_primary_link', $userlink ),;*/
 		}
 
-		do_action( 'bp_core_account_activated', &$signup, $_GET['key'] );
+		do_action( 'bp_core_account_activated', $signup, $_GET['key'] );
 		bp_core_add_message( __( 'Your account is now active!', 'buddypress' ) );
 		
 		$bp->activation_complete = true;
@@ -169,5 +169,3 @@ function bp_redirect_cc()
 
 /*Add an action to redirect user after registration*/
 add_action("bp_core_signup_user","bp_redirect_cc",100,1);
-
-?>

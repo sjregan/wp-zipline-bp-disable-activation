@@ -1,11 +1,10 @@
 === BP Disable Activation ===
-Contributors: crashutah, apeatling
-Donate link: http://crashutah.com
+Contributors: sjregan, crashutah, apeatling
 Tags: BuddyPress, activation, WPMU
 Requires at least: 2.9.2
-Tested up to: 2.9.2
+Tested up to: 4.6
 Site Wide Only: true
-Stable tag: .4
+Stable tag: .5
 
 Disables the activation email and automatically activates new users in BuddyPress under a standard WP install and WPMU (multisite).  Also, automatically logs in the new user since the account is already active.
 
@@ -38,6 +37,9 @@ Of course it could.  So, you should consider using other plugins and methods for
 Why don't you?  Users will love that feature.  I'll look at adding an option to turn this on/off.  Until then you can comment out those lines if you don't want it.
 
 == Changelog ==
+
+= 0.5 =
+* Fixed issues with WP 4.6 and new versions of PHP
 
 = 0.4 =
 * Made plugin sitewide for WPMU
