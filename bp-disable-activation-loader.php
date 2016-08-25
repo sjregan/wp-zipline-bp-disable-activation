@@ -1,19 +1,19 @@
 <?php
 /*
-Plugin Name: BP Disable Activation
-Description:Disables the requirement for users to activate by email on a standalone WP install with BuddyPress
-Version: 0.4
+Plugin Name: Zipline's BP Disable Activation
+Description: Disables the requirement for users to activate by email on a standalone WP install with BuddyPress
+Version: 0.5
 Requires at least: BuddyPress 1.2.3
-Tested up to: BuddyPress 1.2.3+wp 2.9.2
+Tested up to: BuddyPress 1.2.3+wp 4.6
 Site Wide Only: true
 License: GNU General Public License 2.0 (GPL) http://www.gnu.org/licenses/gpl.html
-Author: John Lynn
-Author URI: http://crashutah.com/
-Plugin URI:http://crashutah.com/
-Last updated:7th june 2010
+Author: SJ Regan & John Lynn
+Author URI: https://wearezipline.com
+Plugin URI: https://wearezipline.com
+Last updated: 25th Aug 2016
 */
 /***
-    Copyright (C) 2009 John Lynn(crashutah.com)
+    Based on https://wordpress.org/plugins/bp-disable-activation/
 
     This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or  any later version.
 
