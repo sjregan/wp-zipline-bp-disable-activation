@@ -7,7 +7,7 @@ Requires at least: BuddyPress 1.2.3
 Tested up to: BuddyPress 1.2.3+wp 4.6
 Site Wide Only: true
 License: GNU General Public License 2.0 (GPL) http://www.gnu.org/licenses/gpl.html
-Author: SJ Regan & John Lynn
+Author: Zipline & John Lynn
 Author URI: https://wearezipline.com
 Plugin URI: https://wearezipline.com
 Last updated: 25th Aug 2016
